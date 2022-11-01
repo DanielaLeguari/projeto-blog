@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import PaginaPadrao from "components/PaginaPadrao";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Menu from "./components/menu";
+import Inicio from "./pages/Inicio";
+import SobreMim from "./pages/SobreMim";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Menu />
+        <Routes>
+        <Route path="/" element={<PaginaPadrao />} />
+          <Route index element={<Inicio />} />
+          <Route path="/SobreMim" element={<SobreMim />} />
+          <Route path="*" element={<div>Erro 404-Página não encontrada</div>} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
