@@ -1,4 +1,4 @@
-
+/* CSS global */
 
 * {
   margin: 0;
@@ -8,6 +8,8 @@
 
 :root {
   --azul-escuro: #041833;
+  --marrom-escuro:#1f0d09;
+  --cor-texto-banner: #daaa70;
   --azul-medio: #1875E8;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;

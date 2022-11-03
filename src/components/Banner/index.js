@@ -7,15 +7,15 @@ function Banner() {
             <div className={styles.banner}>
                 <div className={styles.apresentacao}>
                     <h1 className={styles.titulo}>
-                        Rhaenyra Targaryen
+                    Os Winchesters
                     </h1>
 
                     <p className={styles.paragrafo}>
-                        Rhaenyra Targaryen foi a filha mais velha do Rei Viserys I. Ela disputou o Trono de Ferro com seu meio-irmão mais novo, Aegon II, numa guerra civil que ficou conhecida como Dança dos Dragões. Foi casada duas vezes e mãe de cinco filhos, entres os quais Aegon e Viserys, sendo que ambos se tornaram reis após sua morte
+                        "Os Winchesters" gira em torno dos pais de Dean e Sam Winchester, John e Mary, e é descrito como "a história de amor épica e não contada de como John conheceu Mary e como eles colocaram tudo em risco não apenas para salvar seu amor, mas o mundo inteiro, será contado a partir da perspectiva de seu filho mais velho, Dean com Ackles narrando.
                     </p>
                 </div>
                 <div className={styles.imagens}>
-                    <img className={styles.imagem} src={imagem} alt="Rhaenyra Targaryen"/>
+                    <img className={styles.imagem} src={imagem} alt="Os Winchesters" />
                 </div>
             </div>
         </>
