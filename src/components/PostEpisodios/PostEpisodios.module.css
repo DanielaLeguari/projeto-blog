@@ -1,11 +1,11 @@
-.containerEpisodios{
+.containerEpisodios {
     margin: 0 auto;
     width: 90%;
 }
 
 
-.episodios{
-    color:var(--marrom-escuro);
+.episodios {
+    color: var(--marrom-escuro);
     font-style: italic;
     font-weight: bold;
 }

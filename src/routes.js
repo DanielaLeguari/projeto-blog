@@ -1,8 +1,8 @@
-import PaginaPadrao from "components/PaginaPadrao";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Menu from "./components/menu";
 import Inicio from "./pages/Inicio";
-import SobreMim from "./pages/SobreMim";
+import SobreSerie from "./pages/SobreSerie";
 
 
 function AppRoutes() {
@@ -13,7 +13,7 @@ function AppRoutes() {
         <Routes>
           {/* <Route path="/" element={<PaginaPadrao />} /> */}
           <Route path="/" element={<Inicio />} />
-          <Route path="/SobreMim" element={<SobreMim />} />
+          <Route path="/SobreSerie" element={<SobreSerie />} />
           <Route path="*" element={<div>Erro 404-Página não encontrada</div>} />
         </Routes>
       </BrowserRouter>

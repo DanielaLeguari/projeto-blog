@@ -6,9 +6,9 @@ function Menu() {
             <header>
                 <nav className={styles.navegacao}>
                     <MenuLink to="/">
-                    Os Winchesters
+                        Os Winchesters
                     </MenuLink>
-                    <MenuLink to="/SobreMim">
+                    <MenuLink to="/SobreSerie">
                         Sobre a série
                     </MenuLink>
                 </nav>

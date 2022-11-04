@@ -1,8 +1,8 @@
 
-import styles from './BannerSobreMim.module.css';
+import styles from './BannerSobreSerie.module.css';
 import imagem2 from 'assets/imagem2.png'
 
-const BannerSobreMim = () => {
+const BannerSobreSerie = () => {
 
 
     return (
@@ -20,4 +20,4 @@ const BannerSobreMim = () => {
     )
 }
 
-export default BannerSobreMim;
+export default BannerSobreSerie;
