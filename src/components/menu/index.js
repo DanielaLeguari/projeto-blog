@@ -6,10 +6,10 @@ function Menu() {
             <header>
                 <nav className={styles.navegacao}>
                     <MenuLink to="/">
-                        Início
+                    Os Winchesters
                     </MenuLink>
                     <MenuLink to="/SobreMim">
-                        Sobre mim
+                        Sobre a série
                     </MenuLink>
                 </nav>
             </header>

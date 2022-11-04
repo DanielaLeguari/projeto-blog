@@ -1,7 +1,10 @@
+import BannerSobreMim from 'components/BannerSobreMim';
+import PostEpisodios from 'components/PostEpisodios';
 function SobreMim() {
     return (
         <>
-        <h1>Este é o Sobre mim</h1>
+        <BannerSobreMim/>
+        <PostEpisodios/>
         </>
     );
 }
