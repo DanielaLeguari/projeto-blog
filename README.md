@@ -2,7 +2,7 @@
 
 📌 Este projeto foi desenvolvido durante as aulas do Módulo de React no programa VemSer10
 
-# Para iniciar o projeto você precisa do comando:
+## Para iniciar o projeto você precisa do comando:
 ### `npm start`
 
 
