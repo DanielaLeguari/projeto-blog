@@ -11,6 +11,9 @@ function Menu() {
                     <MenuLink to="/SobreSerie">
                         Sobre a série
                     </MenuLink>
+                    <MenuLink to="/Opiniao">
+                        Deixe sua opinião
+                    </MenuLink>
                 </nav>
             </header>
         </>

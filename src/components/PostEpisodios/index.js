@@ -8,7 +8,7 @@ const PostEpisodios = () => {
         <>
             <main className={styles.containerEpisodios}>
                 <h1 className={styles.episodios}> 1ª Temporada-Episódios</h1>
-                <p className={styles.descricao}> A 1ª temporada de "The Winchesters é composta de 13 episódios, lançados semanalmente.</p>
+                <p className={styles.descricao}> A 1ª temporada de "The Winchesters" é composta de 13 episódios lançados semanalmente.</p>
                 {episodios.map((episodio) => (
                     <li key={episodio.id}>
                         <Episodio episodio={episodio} />
